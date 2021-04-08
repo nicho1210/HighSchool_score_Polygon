@@ -1,4 +1,4 @@
-﻿grade,math_score,physics_score,english_score,computer_score,chinese_score,overall
+﻿grade,math_percentage,physics_percentage,english_percentage,computer_percentage,chinese_percentage,overall
 0,0,0,0,0,0,0
 1_first,59,84,65,54,19,50
 1_second,62,0,58,9,46,50

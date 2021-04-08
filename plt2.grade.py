@@ -15,11 +15,11 @@ semesterIdx = range(0, 7)
 subIdx = range(0,6)
 
 precipitation = [] 
-precipitation.append(list(zip(semesterIdx, dataset.math_score)))
-precipitation.append(list(zip(semesterIdx, dataset.physics_score)))
-precipitation.append(list(zip(semesterIdx, dataset.english_score)))
-precipitation.append(list(zip(semesterIdx, dataset.computer_score)))
-precipitation.append(list(zip(semesterIdx, dataset.chinese_score)))
+precipitation.append(list(zip(semesterIdx, dataset.math_percentage))
+precipitation.append(list(zip(semesterIdx, dataset.physics_percentage)))
+precipitation.append(list(zip(semesterIdx, dataset.english_percentage)))
+precipitation.append(list(zip(semesterIdx, dataset.computer_percentage)))
+precipitation.append(list(zip(semesterIdx, dataset.chinese_percentage)))
 precipitation.append(list(zip(semesterIdx, dataset.overall)))
 
 poly = PolyCollection(precipitation, facecolors=['b','c','r','m','y','g'])
