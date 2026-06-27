@@ -38,4 +38,5 @@ ax.set_yticklabels(subjects)
 ax.set_zlabel('Precipitation')
 ax.set_zlim3d(0, 100)
 """
+print("testing adding something")
 plt.show()
