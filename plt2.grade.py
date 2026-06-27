@@ -6,7 +6,7 @@ from matplotlib.collections import PolyCollection
 dataset = pd.read_csv('high_score.csv')
 
 fig = plt.figure(figsize=(10, 10), dpi=300)
-#pryd ax = fig.gca(projection='3d')
+ax = fig.gca(projection='3d')
 
 semesters = ["","1_first", "1_second", "2_first","2_second", "3_first",""]
 subjects = ["math", "physics", "english", "computer", "chinese", "overall"]
