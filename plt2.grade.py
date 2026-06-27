@@ -25,6 +25,7 @@ precipitation.append(list(zip(semesterIdx, dataset.overall)))
 poly = PolyCollection(precipitation, facecolors=['b','c','r','m','y','g'])
 poly.set_alpha(0.7)
 
+"""
 ax.add_collection3d(poly, zs=subIdx, zdir='y')
 ax.set_xlabel('Semester')
 ax.set_xticks(np.arange(len(semesters)))
@@ -36,5 +37,5 @@ ax.set_yticklabels(subjects)
 #ax.set_ylim3d(0, 5)
 ax.set_zlabel('Precipitation')
 ax.set_zlim3d(0, 100)
-
+"""
 plt.show()
